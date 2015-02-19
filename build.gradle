@@ -4,8 +4,8 @@ buildscript {
   }
 
   dependencies {
-    classpath 'com.squareup.retrofit:retrofit:1.6.1'
-    classpath 'com.squareup.okhttp:okhttp:1.6.0'
+    classpath 'com.squareup.retrofit:retrofit:1.9.0'
+    classpath 'com.squareup.okhttp:okhttp:2.2.0'
     classpath 'oauth.signpost:signpost-core:1.2.1.2'
   }
 }
@@ -19,12 +19,12 @@ repositories {
 }
 
 dependencies {
-  compile 'com.squareup.retrofit:retrofit:1.6.1'
-  compile 'com.squareup.okhttp:okhttp:2.0.0'
+  compile 'com.squareup.retrofit:retrofit:1.9.0'
+  compile 'com.squareup.okhttp:okhttp:2.2.0'
   compile 'oauth.signpost:signpost-core:1.2.1.2'
 }
 
 android {
   compileSdkVersion 21
-  buildToolsVersion "21.0.2"
+  buildToolsVersion "21.1.2"
 }
